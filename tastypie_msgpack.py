@@ -3,6 +3,9 @@ from tastypie.serializers import Serializer as DefaultSerializer
 import msgpack
 
 
+__version__ = "0.0.1"
+
+
 class Serializer(DefaultSerializer):
 
     def __init__(self, *args, **kwargs):
