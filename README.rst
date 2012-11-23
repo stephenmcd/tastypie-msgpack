@@ -22,13 +22,13 @@ Given a tastypie resource, simply define ``tastypie_msgpack.Serializer``
 as the serializer for the resource::
 
     from tastypie.resources import ModelResource
-    from tastypie_msgpack import Seralizer
+    from tastypie_msgpack import Serializer
     from myapp.models import MyModel
 
     class MyResource(ModelResource):
         class Meta:
             resource_name = "thing"
             queryset = MyModel.objects.all()
-            serializer = Seralizer()
+            serializer = Serializer()
 
 You can now append the ``format=msgpack`` arg to your API URLs!
