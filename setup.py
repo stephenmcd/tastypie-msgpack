@@ -7,7 +7,7 @@ setup(
     version="0.0.1",
     author="Stephen McDonald",
     author_email="stephen.mc@gmail.com",
-    description="MsgPack support for Django TastyPie.",
+    description="MsgPack support for Django Tastypie.",
     long_description=open("README.rst").read(),
     license="BSD",
     url="https://github.com/stephenmcd/tastypie-msgpack",
