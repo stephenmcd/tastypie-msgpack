@@ -12,6 +12,7 @@ setup(
     license="BSD",
     url="https://github.com/stephenmcd/tastypie-msgpack",
     install_requires=["msgpack-python"],
+    packages=['tastypie_msgpack'],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Environment :: Web Environment",
